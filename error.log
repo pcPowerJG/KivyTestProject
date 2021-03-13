@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "main.py", line 66, in main
+    from spacebook import spacebook
+  File "/home/hatsune/kivy_venv/apps/droid/spacebook/spacebook.py", line 31, in <module>
+    from libs.uix.baseclass.startscreen import StartScreen
+  File "/home/hatsune/kivy_venv/apps/droid/spacebook/libs/uix/baseclass/startscreen.py", line 13, in <module>
+    from kivymd.uix.navigationdrawer import NavigationLayout
+ImportError: cannot import name 'NavigationLayout' from 'kivymd.uix.navigationdrawer' (/home/hatsune/kivy_venv/apps/droid/spacebook/libs/applibs/kivymd/uix/navigationdrawer.py)
